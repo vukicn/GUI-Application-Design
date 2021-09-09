@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+
+
+
+
+<style type="text/css">
+
+body {font: normal 16px/1.5em helvetica, aria, sans-serif; margin:0; padding:0; position:relative}
+#nav {width: 920px; margin: 10px auto; list-style: none; overflow: hidden; float: left;}
+#nav li a {float: left; color: orange; padding: 15px;background-color: #111;border-radius: 25px;}
+#nav li a:hover {color: #fff}
+#nav li a:link    {text-decoration:  none;}
+#header { background-image: url("https://templates.utah.edu/_main-v2/_images/header/background/abstract.jpg"); padding:1% 2% 1% 5%; overflow: hidden}
+#footer { background-image: url("https://templates.utah.edu/_main-v2/_images/header/background/abstract.jpg"); padding:1% 2% 15% 5%; overflow: hidden}
+#Left,#Right  {min-height: 400px;}
+form{color: white;}
+h1 {font-size: 30px; margin:0;color: orange;font-family:Times New RomanGeorgia;}
+
+
+#Left{
+	float:left;
+	
+    width:49%;
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/41CQHbWDzJL._SL1200_.jpg");
+    padding:2.4% 2% 2% 5%;}
+
+#Right {
+	float:left;
+	width:37%;
+	padding:2.4% 2% 2% 5%;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/41CQHbWDzJL._SL1200_.jpg");       
+}
+
+#footer {
+	clear:both;
+        color: orange;
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Beats_Music_logo.svg/2000px-Beats_Music_logo.svg.png"
+style="width:100px;height:100px;">
+<h1>BeatSTL</h1>
+                <ul id="nav">
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="News.html">Upcoming Music Events </a></li>
+		<li><a href="Ticket.html">Tickets and Reservations</a></li>
+		<li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+	</ul>
+</div>
+<form>
+<div id="Left">
+	<fieldset>
+  <legend>Personal information :</legend>
+First Name:<br>
+  <input type="text" name="First Name"><br>
+  Last Name:<br>
+  <input type="text" name="Last Name"><br>
+Email:<br>
+  <input type="email" name="Email"><br>
+Address:<br>
+  <input type="text" Adresa="Address"><br><br>
+ Date of Birth: 
+  <input type="date" name="DoB">
+
+<p>Gender:</p> 
+<input type="radio" name="Gender" value="male" checked> M
+  <input type="radio" name="Gender" value="Female"> Z<br>
+<br>
+</fieldset> 
+</div> 
+<div id="Right">
+<fieldset>
+  <legend>Ticket :</legend>
+
+Number of tickets(maximum 6 tickets):
+  <input type="number" name="quantity" min="1" max="6"> <br><br>
+Name of Event:<br>
+  <input type="text" name="Ime"><br>
+<br>
+
+Position:
+<select name="Mesto">
+  <option value="Level 1">Level 1</option>
+  <option value="Level 2">Level 2</option>
+  <option value="Level 3">Level 3</option>
+  <option value="Small VIP table">Small VIP table</option>
+  <option value="Large VIP table">Large VIP table</option>
+</select>
+</fieldset>
+<br><br>
+<fieldset>
+<legend>Confirmation:</legend>
+<p>NOTE: The booking confirmation will be sent to the email address within 48 hours.</p>
+<button onclick="Refresh() "type="submit" form="form1" value="Submit">Confirm</button>
+<script>
+function Refresh() {
+  location.replace("Ticket.html")
+}
+</script>
+</fieldset>
+</div>
+</form>
+<div id="footer">
+<br><br>	
+<h3 ><center>By: Nikola Vukic</center></h3>
+</div>
+
+</body>
+</html>

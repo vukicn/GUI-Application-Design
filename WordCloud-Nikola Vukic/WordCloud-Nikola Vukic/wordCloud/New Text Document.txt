@@ -1,0 +1,4 @@
+Nikola Vukic
+11/06/2019
+I used Windows, but I used NetBeans program for developing.
+I used Oracle library and I used course about Javafx at Linkedin that help me accomplish this project. 

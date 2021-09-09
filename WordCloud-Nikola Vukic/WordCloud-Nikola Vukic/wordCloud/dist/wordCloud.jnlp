@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="wordCloud.jnlp">
+  <information>
+    <title>wordCloud</title>
+    <vendor>sblythe</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="wordCloud.jar" size="7984" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="wordcloud.PieChart"  name="wordCloud" />
+  <update check="always"/>
+</jnlp>

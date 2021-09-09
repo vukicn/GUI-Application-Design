@@ -1,0 +1,5 @@
+Nikola Vukic
+10/13/2019
+I developed code on NetBeans and Scene Builder.
+I separated my project in 3 parts. In first part I implemented buttons, labels,methods, binding, Hbox, Vbox, nesting.
+In second part I implemented shapes, colors, gradients, and in the last one I implemented picture. 
